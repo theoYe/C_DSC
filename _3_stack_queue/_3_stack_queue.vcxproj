@@ -147,7 +147,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="stack.cpp" />
     <ClCompile Include="_3_stack_queue.cpp" />
+    <ClCompile Include="stack2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stack.h" />
+    <ClInclude Include="stack2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="_3_stack_queue.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
