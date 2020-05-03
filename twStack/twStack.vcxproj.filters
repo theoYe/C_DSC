@@ -15,36 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stack.cpp">
+    <ClCompile Include="twStack.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="stack2.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="_3_stack_queue.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="twstack.cpp">
+    <ClCompile Include="tws.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stack.h">
+    <ClInclude Include="tws.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="stack2.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="twstack.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="_3_stack_queue.rc">
-      <Filter>资源文件</Filter>
-    </ResourceCompile>
   </ItemGroup>
 </Project>

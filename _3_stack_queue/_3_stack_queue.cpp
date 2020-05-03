@@ -2,23 +2,27 @@
 //
 
 #include<stdio.h>
-#include "stack2.h"
+#include "twstack.h"
 
 int main()
 {
-	Stack stack;
-	intializeStack(&stack);
+	twStack twstack;
 
-	push(&stack, 3);
-	push(&stack, 4);
-	push(&stack, 5);
-	push(&stack, 6);
-	
-	pop(&stack);
-	printStack(&stack);
+	initstack(twstack);
 
-	return 0;
+	push(twstack, 1, 3);
+	push(twstack, 0, 4);
+	push(twstack, 1, 5);
+	push(twstack, 0, 6);
+	pop(twstack, 0);
+	printTWStack(twstack);
 }
+
+/**
+ * 无法运行?
+ * 是否有重定义?? 函数, 变量.
+ * 
+ */
 
 void testStack1(){
 //#include"stack.h"
@@ -34,4 +38,19 @@ void testStack1(){
 	//int a;
 	//Pop(sqStack, a);
 	//printStack(sqStack);
+}
+
+void testStack2(){
+	//Stack stack;
+	//intializeStack(&stack);
+
+	//push(&stack, 3);
+	//push(&stack, 4);
+	//push(&stack, 5);
+	//push(&stack, 6);
+
+	//pop(&stack);
+	//printStack(&stack);
+
+	//return 0;
 }
